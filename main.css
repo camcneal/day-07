@@ -1,4 +1,48 @@
 body {
-  color: lightblue; }
+  color: dodgerblue;
+  text-align: center; }
+
+main {
+  text-align: center; }
+
+header h1 {
+  display: inline-block;
+  font-size: 14px; }
+header .header-icon {
+  list-style: none;
+  padding: 0; }
+header li {
+  display: inline-block; }
+
+@media (min-width: 880px) {
+  header {
+    padding: 2rem; }
+    header::after {
+      content: '';
+      display: block;
+      clear: both;
+      padding-bottom: 2rem;
+      padding-top: 2rem; }
+    header h4 {
+      float: left; }
+    header h1 {
+      float: left; }
+    header .header-icon {
+      float: right; } }
+.product-item {
+  padding: 2rem;
+  box-sizing: border-box; }
+  .product-item .product-icon {
+    padding: 1rem;
+    font-size: 3rem;
+    border-bottom: solid 2px; }
+
+@media (min-width: 670px) {
+  .product-item {
+    float: right;
+    width: 50%; } }
+@media (min-width: 880px) {
+  .product-item {
+    width: 33.3%; } }
 
 /*# sourceMappingURL=main.css.map */
