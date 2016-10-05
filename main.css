@@ -3,7 +3,8 @@ body {
   text-align: center; }
 
 main {
-  text-align: center; }
+  text-align: center;
+  padding: 0; }
 
 header h1 {
   display: inline-block;
@@ -28,7 +29,8 @@ header li {
     header h1 {
       float: left; }
     header .header-icon {
-      float: right; } }
+      float: right;
+      font-size: 1.5rem; } }
 .product-item {
   padding: 2rem;
   box-sizing: border-box; }
